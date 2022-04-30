@@ -22,7 +22,7 @@ class Game{
         }while(inputNumber != number);
     }
 
-    //
+    // This method check the inputnumber entered by the user is equal, higher, lower tham the random number.
     void checkNo(){
         if (number == inputNumber) {
             System.out.println("You guessed it in [" +  noOfGuesses + "]  attempts.");
